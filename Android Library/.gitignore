@@ -1,0 +1,35 @@
+# Android Studio 및 IntelliJ 관련 파일
+.idea/
+.gradle/
+local.properties
+*.iml
+*.ipr
+*.iws
+
+# Gradle 관련 파일
+/build/
+# .gradle directory is used by Gradle to cache build data
+.gradle/
+
+# OS 관련 파일
+.DS_Store
+Thumbs.db
+
+# Android 프로젝트 빌드 결과물
+/app/build/
+*/build/
+
+# Kotlin 관련 캐시 파일
+/.idea/.name
+
+# Log 파일
+*.log
+
+# 기타
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
+*.war
+*.ear
